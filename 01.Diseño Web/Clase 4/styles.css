@@ -1,0 +1,10 @@
+body {
+    background-color: darkslategrey;
+}
+
+h1 {
+    font-size: 100px;
+    color: maroon;
+    background-color: midnightblue;
+    text-align: center;
+}
