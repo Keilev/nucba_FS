@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/styles4.css">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    <form>
+        <div>
+            <label for="name">Nombre:</label>
+            <input type="text">
+            <br>
+            <label for="lastname">Apellidos:</label>
+            <input type="text">  
+            <br>
+            <label for="genre">Sexo:</label>
+            <input type="radio" name="genre" id="hombre" value="hombre">
+            <label for="hombre">hombre</label>
+            <input type="radio" name="genre" id="mujer" value="mujer">
+            <label for="mujer">mujer</label>
+            <br>
+            <label for="email">Correo:</label>
+            <input type="text" name="email" id="email">
+            <br>
+            <label for="poblacion">Poblacion:</label>
+            <select name="poblacion" id="poblacion">
+                <option value="alicante">alicante</option>
+                <option value="orgegia">orgegia</option>
+            </select>
+            <br>
+            <label for="descripcion">Descripción:</label>
+            <textarea name="descripcion" id="descripcion" cols="50" rows="5"></textarea>
+            <br>
+            <input type="checkbox" name="subs" id="subs">
+            <label for="subs">Deseo recibir información sobre novedades y ofertas</label>
+            <br>
+            <input type="checkbox" name="accpt" id="accpt">
+            <label for="accpt">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre proteccion de datos</label>
+            <br>
+            <input type="button" value="Enviar">
+
+
+        </div>
+    </form>
+</body>
+</html>
