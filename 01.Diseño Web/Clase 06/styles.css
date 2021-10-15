@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    /* flex-flow: row wrap; */
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrapper > * {
+    padding: 10px;
+    flex: 2 100%;
+}
+
+
+.header {
+    background-color: blueviolet;
+}
+
+.footer {
+    background-color: whitesmoke;
+}
+
+.main {
+    /* text-align: left; */
+    background-color: slateblue;
+}
+
+.aside-1{
+    background-color: deepskyblue;
+}
+
+.aside-2{
+    background-color: deeppink;
+}
+
+/* vamos a usar etiquetas de la clase */
+
