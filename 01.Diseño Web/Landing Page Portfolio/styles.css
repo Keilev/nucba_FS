@@ -1,0 +1,23 @@
+.flex-container{
+    display: flex;
+    background-color: cornsilk;
+    padding: 10px;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.logo {
+    width: 200px;
+}
+
+.section{
+    background-color: darkcyan;
+    width: 120px;
+    margin: 10px;
+    text-align: center;
+    justify-content: end;
+    font-size: 30px;
+    /* line-height: 70px; */
+    border: 2px solid black;
+}
