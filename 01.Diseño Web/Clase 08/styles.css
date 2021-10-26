@@ -1,0 +1,33 @@
+div {
+    width: 100px;
+    height: 100px;
+    background: blueviolet;
+    position: relative;
+    /* transition: width, background, 10s;
+    transition-delay: 2s; */
+    animation-name: example;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    animation-direction: reverse;
+}
+
+/* #div1 {transition-timing-function: linear;}
+#div2 {transition-timing-function: ease;}
+#div3 {transition-timing-function: ease-in;}
+#div4 {transition-timing-function: ease-out;}
+#div5 {transition-timing-function: ease-in-out;}
+
+div:hover{
+    width: 300px;
+    background: rgb(122, 24, 11);
+    
+} */
+
+@keyframes example{
+    0% {background-color: darkblue; left: 0px; top: 0px;}
+    25% {background-color: darkmagenta; left: 200px; top: 0px;}
+    50% {background-color: green; left: 200px; top: 200px;}
+    75% {background-color: indianred; left: 0px; top: 200px;}
+    100% {background-color: lightskyblue; left: 0px; top: 0px;}
+}
