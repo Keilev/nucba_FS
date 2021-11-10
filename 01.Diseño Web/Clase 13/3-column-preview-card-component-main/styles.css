@@ -38,14 +38,6 @@
     
 }
 
-.btnsedan{
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    height: 60px;
-}
-
-
 .sedans h2{
     /* font-family: 'Big Shoulders Display', sans-serif; */
     font-family: 'Lexend Deca', sans-serif;
@@ -56,5 +48,113 @@
 }
 .sedans p{
     font-family: 'Lexend Deca', sans-serif;
+    color: var(--Transparent_white);
+    font-size: 20px;
 }
 
+.btnsedan{
+    display: flex;
+    flex-direction: center;
+    width: 60%;
+    height: 60px;
+    border-radius: 45px 45px 45px 45px;
+    background-color: var(--Very_light_gray);
+    color: var(--Bright_orange);
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Big Shoulders Display', sans-serif; 
+    font-weight: 700;
+    border-color: var(--Bright_orange);
+    
+}
+
+.SUVs {
+    background-color: var(--Dark_cyan);
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    justify-content: space-evenly;
+    padding-left: 40px;
+    
+}
+
+
+.SUVs h2{
+    /* font-family: 'Big Shoulders Display', sans-serif; */
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--Very_light_gray);
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.SUVs p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--Transparent_white);
+    font-size: 20px;
+}
+
+
+.btnsuvs{
+    display: flex;
+    flex-direction: center;
+    width: 60%;
+    height: 60px;
+    border-radius: 45px 45px 45px 45px;
+    background-color: var(--Very_light_gray);
+    color: var(--Dark_cyan);
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Big Shoulders Display', sans-serif; 
+    font-weight: 700;
+    border-color: var(--Dark_cyan);
+    
+}
+
+
+.luxury {
+    background-color: var(--Very_dark_cyan);
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    justify-content: space-evenly;
+    padding-left: 40px;
+    border-radius: 0 10px 10px 0;
+    
+}
+
+
+.luxury h2{
+    /* font-family: 'Big Shoulders Display', sans-serif; */
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--Very_light_gray);
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.luxury p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--Transparent_white);
+    font-size: 20px;
+}
+
+
+.btnluxury{
+    display: flex;
+    flex-direction: center;
+    width: 60%;
+    height: 60px;
+    border-radius: 45px 45px 45px 45px;
+    background-color: var(--Very_light_gray);
+    color: var(--Very_dark_cyan);
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Big Shoulders Display', sans-serif; 
+    font-weight: 700;
+    border-color: var(--Very_dark_cyan);
+    
+}
