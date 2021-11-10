@@ -30,7 +30,7 @@
     background-color: var(--Bright_orange);
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 350px;
     height: 600px;
     border-radius: 10px 0 0 10px;
     justify-content: space-evenly;
@@ -73,7 +73,7 @@
     background-color: var(--Dark_cyan);
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 350px;
     height: 600px;
     justify-content: space-evenly;
     padding-left: 40px;
@@ -118,7 +118,7 @@
     background-color: var(--Very_dark_cyan);
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 350px;
     height: 600px;
     justify-content: space-evenly;
     padding-left: 40px;
