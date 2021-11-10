@@ -129,14 +129,15 @@
 
 .luxury h2{
     /* font-family: 'Big Shoulders Display', sans-serif; */
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     color: var(--Very_light_gray);
-    font-weight: 700;
+    font-weight: 400;
     font-size: 50px;
+
 }
 
 .luxury p{
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lexend Deca', cursive;
     color: var(--Transparent_white);
     font-size: 20px;
 }
