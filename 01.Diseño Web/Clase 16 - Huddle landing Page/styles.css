@@ -1,0 +1,72 @@
+:root {
+--Violet: hsl(257, 40%, 49%);
+--Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./images/bg-desktop.svg);
+    background-color: var(--Violet);
+    padding-left: 60px;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 240px);
+    grid-template-rows: repeat(6, 200px);
+}
+
+.logo{
+    padding-top: 40px;
+}
+
+.image {
+    grid-column: 1 / 4;
+    grid-row: 2 / 4;
+    
+}
+
+.section {
+    grid-column: 4 / 6;
+    grid-row: 2 / 4;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+.section h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 25px;
+}
+
+.section p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 25px;
+}
+
+.section button{
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 45px;
+    color: var(--Violet);
+    height: 40px;
+    width: 150px;
+}
+
+
+.social-icon {
+    grid-column: 5 / 7;
+    grid-row: 4/ 6;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    ;
+}
